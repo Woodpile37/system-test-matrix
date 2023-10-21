@@ -90,7 +90,7 @@
     "eslint-plugin-prettier": "^3.2.0",
     "eslint-plugin-react": "^7.23.2",
     "file-loader": "^6.2.0",
-    "glob": "^7.1.6",
+    "glob": "^10.3.10",
     "jest": "^26.1.0",
     "jest-fetch-mock": "^3.0.3",
     "jest-styled-components": "^7.0.3",
