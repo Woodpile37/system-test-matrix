@@ -3936,7 +3936,7 @@
     simplebar-react "^1.0.0-alpha.6"
     ts-dedent "^1.1.0"
 
-"@storybook/components@6.4.19", "@storybook/components@^6.3.3":
+"@storybook/components@6.4.19":
   version "6.4.19"
   resolved "https://registry.yarnpkg.com/@storybook/components/-/components-6.4.19.tgz#084ba21f26a3eeab82f45178de6899688eecb2fc"
   integrity sha512-q/0V37YAJA7CNc+wSiiefeM9+3XVk8ixBNylY36QCGJgIeGQ5/79vPyUe6K4lLmsQwpmZsIq1s1Ad5+VbboeOA==
@@ -3966,7 +3966,7 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/components@7.5.1":
+"@storybook/components@7.5.1", "@storybook/components@^7.5.1":
   version "7.5.1"
   resolved "https://registry.yarnpkg.com/@storybook/components/-/components-7.5.1.tgz#677eae0e7976939434b5c391fe841ced9b66e082"
   integrity sha512-fdzzxGBV/Fj9pYwfYL3RZsVUHeBqlfLMBP/L6mPmjaZSwHFqkaRZZUajZc57lCtI+TOy2gY6WH3cPavEtqtgLw==
