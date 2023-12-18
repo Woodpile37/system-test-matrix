@@ -1364,14 +1364,14 @@
     core-js-pure "^3.20.2"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.13", "@babel/runtime@^7.12.5", "@babel/runtime@^7.13.10", "@babel/runtime@^7.14.5", "@babel/runtime@^7.14.6", "@babel/runtime@^7.14.8", "@babel/runtime@^7.17.8", "@babel/runtime@^7.19.4", "@babel/runtime@^7.21.0", "@babel/runtime@^7.3.1", "@babel/runtime@^7.5.0", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.6", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.13", "@babel/runtime@^7.12.5", "@babel/runtime@^7.13.10", "@babel/runtime@^7.14.6", "@babel/runtime@^7.14.8", "@babel/runtime@^7.17.8", "@babel/runtime@^7.19.4", "@babel/runtime@^7.21.0", "@babel/runtime@^7.3.1", "@babel/runtime@^7.5.0", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.6", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
   version "7.23.2"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.23.2.tgz#062b0ac103261d68a966c4c7baf2ae3e62ec3885"
   integrity sha512-mM8eg4yl5D6i3lu2QKPuPH4FArvJ8KhTofbE7jwMUv9KX5mBvwPAqnV3MlyBNqdp9RyRKP6Yck8TrfYrPvX3bg==
   dependencies:
     regenerator-runtime "^0.14.0"
 
-"@babel/runtime@^7.23.2":
+"@babel/runtime@^7.22.5", "@babel/runtime@^7.23.2":
   version "7.23.6"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.23.6.tgz#c05e610dc228855dc92ef1b53d07389ed8ab521d"
   integrity sha512-zHd0eUrf5GZoOWVCXp6koAKQTfZV07eit6bGPmJgnZdnSAvvZee6zniW2XMF7Cmc4ISOOnPy3QaSiIJGJkVEDQ==
@@ -7687,10 +7687,10 @@ compressible@~2.0.16:
   dependencies:
     mime-db ">= 1.43.0 < 2"
 
-compression-webpack-plugin@^9.0.0:
-  version "9.2.0"
-  resolved "https://registry.yarnpkg.com/compression-webpack-plugin/-/compression-webpack-plugin-9.2.0.tgz#57fd539d17c5907eebdeb4e83dcfe2d7eceb9ef6"
-  integrity sha512-R/Oi+2+UHotGfu72fJiRoVpuRifZT0tTC6UqFD/DUo+mv8dbOow9rVOuTvDv5nPPm3GZhHL/fKkwxwIHnJ8Nyw==
+compression-webpack-plugin@^10.0.0:
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/compression-webpack-plugin/-/compression-webpack-plugin-10.0.0.tgz#3496af1b0dc792e13efc474498838dbff915c823"
+  integrity sha512-wLXLIBwpul/ALcm7Aj+69X0pYT3BYt6DdPn3qrgBIh9YejV9Bju9ShhlAsjujLyWMo6SAweFIWaUoFmXZNuNrg==
   dependencies:
     schema-utils "^4.0.0"
     serialize-javascript "^6.0.0"
@@ -9473,9 +9473,9 @@ eslint-plugin-cypress@^2.11.1:
     globals "^13.20.0"
 
 eslint-plugin-import@^2.23.4:
-  version "2.29.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.29.0.tgz#8133232e4329ee344f2f612885ac3073b0b7e155"
-  integrity sha512-QPOO5NO6Odv5lpoTkddtutccQjysJuFxoPS7fAHO+9m9udNHvTCPSAMW9zGAYj8lAIdr40I8yPCdUYrncXtrwg==
+  version "2.29.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.29.1.tgz#d45b37b5ef5901d639c15270d74d46d161150643"
+  integrity sha512-BbPC0cuExzhiMo4Ff1BTVwHpjjv28C5R+btTOGaCRC7UEz801up0JadwkeSk5Ued6TG34uaczuVuH6qyy5YUxw==
   dependencies:
     array-includes "^3.1.7"
     array.prototype.findlastindex "^1.2.3"
@@ -9493,7 +9493,7 @@ eslint-plugin-import@^2.23.4:
     object.groupby "^1.0.1"
     object.values "^1.1.7"
     semver "^6.3.1"
-    tsconfig-paths "^3.14.2"
+    tsconfig-paths "^3.15.0"
 
 eslint-plugin-jest@^26.0.0:
   version "26.1.1"
@@ -11377,7 +11377,7 @@ html-entities@^2.1.0, html-entities@^2.3.2:
   resolved "https://registry.yarnpkg.com/html-entities/-/html-entities-2.3.2.tgz#760b404685cb1d794e4f4b744332e3b00dcfe488"
   integrity sha512-c3Ab/url5ksaT0WyleslpBEthOzWhrjQbg75y7XUsfSzi3Dgzt0l8w5e7DylRn15MTlMMD58dTfzddNS2kcAjQ==
 
-html-escaper@^2.0.0, html-escaper@^2.0.2:
+html-escaper@^2.0.0:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/html-escaper/-/html-escaper-2.0.2.tgz#dfd60027da36a36dfcbe236262c00a5822681453"
   integrity sha512-H2iMtd0I4Mt5eYiapRdIDjp+XzelXQ0tFE4JS7YFwFevXXMmOp9myNrUvCg0D6ws8iqkRPBfKHgbwig1SmlLfg==
@@ -16571,13 +16571,12 @@ react-helmet-async@^1.0.2, react-helmet-async@^1.0.7:
     react-fast-compare "^3.2.0"
     shallowequal "^1.1.0"
 
-react-i18next@^11.0.0:
-  version "11.15.5"
-  resolved "https://registry.yarnpkg.com/react-i18next/-/react-i18next-11.15.5.tgz#3de940a1c5a27956d8265663ca67494881f385e8"
-  integrity sha512-vBWuVEQgrhZrGKpyv8FmJ7Zs5jRQWl794Tte7yzJ0okZqqi3jd6j2pLYNg441WcREsbIOvWdiDXbY7W6E93p1A==
+react-i18next@^13.5.0:
+  version "13.5.0"
+  resolved "https://registry.yarnpkg.com/react-i18next/-/react-i18next-13.5.0.tgz#44198f747628267a115c565f0c736a50a76b1ab0"
+  integrity sha512-CFJ5NDGJ2MUyBohEHxljOq/39NQ972rh1ajnadG9BjTk+UXbHLq4z5DKEbEQBDoIhUmmbuS/fIMJKo6VOax1HA==
   dependencies:
-    "@babel/runtime" "^7.14.5"
-    html-escaper "^2.0.2"
+    "@babel/runtime" "^7.22.5"
     html-parse-stringify "^3.0.1"
 
 react-inlinesvg@^2.3.0:
@@ -19267,10 +19266,10 @@ ts-toolbelt@^6.15.1:
   resolved "https://registry.yarnpkg.com/ts-toolbelt/-/ts-toolbelt-6.15.5.tgz#cb3b43ed725cb63644782c64fbcad7d8f28c0a83"
   integrity sha512-FZIXf1ksVyLcfr7M317jbB67XFJhOO1YqdTcuGaq9q5jLUoTikukZ+98TPjKiP2jC5CgmYdWWYs0s2nLSU0/1A==
 
-tsconfig-paths@^3.14.2:
-  version "3.14.2"
-  resolved "https://registry.yarnpkg.com/tsconfig-paths/-/tsconfig-paths-3.14.2.tgz#6e32f1f79412decd261f92d633a9dc1cfa99f088"
-  integrity sha512-o/9iXgCYc5L/JxCHPe3Hvh8Q/2xm5Z+p18PESBU6Ff33695QnCHBEjcytY2q19ua7Mbl/DavtBOLq+oG0RCL+g==
+tsconfig-paths@^3.15.0:
+  version "3.15.0"
+  resolved "https://registry.yarnpkg.com/tsconfig-paths/-/tsconfig-paths-3.15.0.tgz#5299ec605e55b1abb23ec939ef15edaf483070d4"
+  integrity sha512-2Ac2RgzDe/cn48GvOe3M+o82pEFewD3UPbyoUHHdKasHwJKjds4fLXWf/Ux5kATBKN20oaFGu+jbElp1pos0mg==
   dependencies:
     "@types/json5" "^0.0.29"
     json5 "^1.0.2"
@@ -20793,10 +20792,15 @@ yallist@^4.0.0:
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-4.0.0.tgz#9bb92790d9c0effec63be73519e11a35019a3a72"
   integrity sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==
 
-yaml@^1.10.0, yaml@^1.10.2, yaml@^1.7.2:
+yaml@^1.10.0, yaml@^1.7.2:
   version "1.10.2"
   resolved "https://registry.yarnpkg.com/yaml/-/yaml-1.10.2.tgz#2301c5ffbf12b467de8da2333a459e29e7920e4b"
   integrity sha512-r3vXyErRCYJ7wg28yvBY5VSoAF8ZvlcW9/BwUzEtUsjvX/DKs24dIkuwjtuprwJJHsbyUbLApepYTR1BN4uHrg==
+
+yaml@^2.3.4:
+  version "2.3.4"
+  resolved "https://registry.yarnpkg.com/yaml/-/yaml-2.3.4.tgz#53fc1d514be80aabf386dc6001eb29bf3b7523b2"
+  integrity sha512-8aAvwVUSHpfEqTQ4w/KMlf3HcRdt50E5ODIQJBw1fQ5RL34xabzxtUlzTXVqc4rkZsPbvrXKWnABCD7kWSmocA==
 
 yargs-parser@20.x, yargs-parser@^20.2.2, yargs-parser@^20.2.3, yargs-parser@^20.2.7:
   version "20.2.9"
