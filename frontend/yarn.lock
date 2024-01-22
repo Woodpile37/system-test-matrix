@@ -3283,17 +3283,11 @@
     ts-dedent "^2.0.0"
 
 "@storybook/addon-measure@^7.5.1":
-  version "7.5.1"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-measure/-/addon-measure-7.5.1.tgz#bc8d2beedc9f6a1170cd90a013012b89d0971aa5"
-  integrity sha512-yR6oELJe0UHYxRijd1YMuGaQRlZ3uABjmrXaFCPnd6agahgTwIJLiK4XamtkVur//LaiJMvtmM2XXrkJ1BvNJw==
+  version "7.6.10"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-measure/-/addon-measure-7.6.10.tgz#5e41d64aa6e02b9c6df1696d918058979598250e"
+  integrity sha512-OVfTI56+kc4hLWfZ/YPV3WKj/aA9e4iKXYxZyPdhfX4Z8TgZdD1wv9Z6e8DKS0H5kuybYrHKHaID5ki6t7qz3w==
   dependencies:
-    "@storybook/client-logger" "7.5.1"
-    "@storybook/components" "7.5.1"
-    "@storybook/core-events" "7.5.1"
     "@storybook/global" "^5.0.0"
-    "@storybook/manager-api" "7.5.1"
-    "@storybook/preview-api" "7.5.1"
-    "@storybook/types" "7.5.1"
     tiny-invariant "^1.3.1"
 
 "@storybook/addon-storyshots@^7.5.1":
