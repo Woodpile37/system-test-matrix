@@ -3318,22 +3318,12 @@
     read-pkg-up "^7.0.1"
     ts-dedent "^2.0.0"
 
-"@storybook/addon-viewport@^6.3.3":
-  version "6.4.19"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-viewport/-/addon-viewport-6.4.19.tgz#08702f5c2103c8ec5bc69344c06b85553949d274"
-  integrity sha512-T1hdImxbLj8suQSTbp6HSA1LLHOlqaNK5jjnqzEOoAxY0O8LNPXMJ2jKIeT2fPQ0v+tWGU3tbwf+3xFq0parVQ==
+"@storybook/addon-viewport@^7.6.12":
+  version "7.6.12"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-viewport/-/addon-viewport-7.6.12.tgz#2bfde2d98ded4693f9821b7d67b03fcc3dc73346"
+  integrity sha512-51zsBeoaEzq699SKDCe+GG/2PDAJKKJtpjqxIc4lDskogaCJSb3Ie8LyookHAKYgbi2qealVgK8zaP27KUj3Pg==
   dependencies:
-    "@storybook/addons" "6.4.19"
-    "@storybook/api" "6.4.19"
-    "@storybook/client-logger" "6.4.19"
-    "@storybook/components" "6.4.19"
-    "@storybook/core-events" "6.4.19"
-    "@storybook/theming" "6.4.19"
-    core-js "^3.8.2"
-    global "^4.4.0"
     memoizerific "^1.11.3"
-    prop-types "^15.7.2"
-    regenerator-runtime "^0.13.7"
 
 "@storybook/addons@5.3.21":
   version "5.3.21"
