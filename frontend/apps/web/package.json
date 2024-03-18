@@ -34,7 +34,7 @@
     "http-server": "^14.0.0",
     "start-server-and-test": "^2.0.1",
     "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^4.0.0",
+    "webpack-dev-server": "^5.0.3",
     "yaml": "^2.3.4"
   },
   "dependencies": {
